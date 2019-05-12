@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mmis:
+    image: "mophos/queue"
+    container_name: "queue"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - ./mqtt-config:/home/queue/mqtt-server/config
+      - ./api-config:/home/queue/queue-api/config
+    restart: always
