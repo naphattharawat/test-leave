@@ -1,0 +1,11 @@
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=leave_system
+DB_USER=root
+DB_PASSWORD=12345678
+
+SECRET_KEY=12345678asdsd90
+
+PORT=3000
+
+UPLOAD_DIR=./uploads

@@ -1,12 +1,10 @@
 version: '3'
 services:
   mmis:
-    image: "mophos/queue"
-    container_name: "queue"
+    image: "test"
+    container_name: "test_test"
     ports:
-      - "80:80"
-      - "8080:8080"
+      - "89:80"
     volumes:
-      - ./mqtt-config:/home/queue/mqtt-server/config
-      - ./api-config:/home/queue/queue-api/config
+      - ./config:/home/leave/nkp-leave-api/config
     restart: always
