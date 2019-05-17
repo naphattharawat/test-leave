@@ -1,0 +1,17 @@
+version: '3'
+services:
+  leave:
+    image: "test"
+    container_name: "test_test"
+    ports:
+      - "92:80"
+    volumes:
+      - ./config:/home/leave/nkp-leave-api/config
+  nginx:
+    image: "nginx"
+    container_name: "nginx_test"
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf /etc/nginx/conf.d/default.conf
+    restart: always

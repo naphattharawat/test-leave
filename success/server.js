@@ -30,7 +30,7 @@ app.use(function (err, req, res, next) {
 // app.addEventListener('beforeinstallprompt', event => {
 //   this.promptEvent = event;
 // });
-let port = 4019;
+let port = 4000;
 
 app.listen(port, function () {
     console.log(`Q4U listening on port ${port}!`)

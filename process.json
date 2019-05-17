@@ -1,12 +1,12 @@
 {
-  "apps": [{
-      "name": "nkp-leave-web",
-      "script": "./nkp-leave-web/server.js"
-    },
-    {
-      "name": "nkp-leave-api",
-      "script": "./nkp-leave-api/dist/app.js",
-      "wait_ready": true
-    }
-  ]
+    "apps": [{
+            "name": "nkp-leave-web",
+            "script": "./nkp-leave-web/server.js"
+        },
+        {
+            "name": "nkp-leave-api",
+            "script": "./nkp-leave-api/dist/bin/www.js",
+            "wait_ready": true
+        }
+    ]
 }
